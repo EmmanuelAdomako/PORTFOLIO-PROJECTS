@@ -7,7 +7,8 @@ price_per_pack INTEGER,
 packs INTEGER,
 product_category VARCHAR(50));
 
-SELECT * FROM grocery_store 
+SELECT * 
+FROM grocery_store 
 
 
 --*/The price_per_pack Column was previously price and was renamed to "price_per_pack" because Stating as price would mean all the packs is priced at that amount.
